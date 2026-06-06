@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Budget Advisor</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>💰 AI Budget Advisor</h1>
+        <p>Plan your money and reach your goals smartly</p>
+
+        <form action="/advice" method="POST" target="_blank">
+
+            <label>Monthly Income</label>
+            <input type="number" name="income" placeholder="Enter your monthly income" required>
+
+            <label>Monthly Expenses</label>
+            <input type="number" name="expenses" placeholder="Enter your monthly expenses" required>
+
+            <label>Product / Saving Goal</label>
+            <input type="text" name="goal" placeholder="Example: Buy laptop" required>
+
+            <label>Product Price</label>
+            <input type="number" name="product_price" placeholder="Enter product price" required>
+
+            <label>Buy Within Months</label>
+            <input type="number" name="months" placeholder="Example: 6" required>
+
+            <button type="submit">🚀 Get AI Advice</button>
+        </form>
+    </div>
+
+    <div class="footer-name">
+        Developed by Hasini Reddy
+    </div>
+
+</body>
+</html>
